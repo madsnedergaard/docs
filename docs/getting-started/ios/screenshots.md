@@ -67,6 +67,7 @@ To jump-start your UI tests, you can use the UI Test recorder, which you can sta
 1. Add a new Xcode scheme for the newly created UI Test target
 1. Edit the scheme
 1. In the list on the left click "Build", and enable the checkbox under the "Run" column for your target.
+1. In the list on the left click "Run", and select your application in the Executable dropdown.
 1. Enable the `Shared` box of the newly created scheme
 1. (Objective C only) Add the bridging header to your test class.
   - `#import "MYUITests-Swift.h"`
